@@ -1,0 +1,134 @@
+{
+    "type": "bubble",
+    "hero": {
+      "type": "image",
+      "url": "https://thumbs.dreamstime.com/b/golden-house-28678187.jpg",
+      "size": "full",
+      "aspectRatio": "20:13",
+      "aspectMode": "cover",
+      "action": {
+        "type": "uri",
+        "uri": "https://linecorp.com"
+      }
+    },
+    "body": {
+      "type": "box",
+      "layout": "vertical",
+      "spacing": "md",
+      "action": {
+        "type": "uri",
+        "uri": "https://linecorp.com"
+      },
+      "contents": [
+        {
+          "type": "text",
+          "text": "Gold Housse",
+          "size": "xl",
+          "weight": "bold"
+        },
+        {
+          "type": "box",
+          "layout": "vertical",
+          "spacing": "sm",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "icon",
+                  "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/restaurant_regular_32.png"
+                },
+                {
+                  "type": "text",
+                  "text": "AI 助手",
+                  "weight": "bold",
+                  "margin": "sm",
+                  "flex": 0
+                },
+                {
+                  "type": "text",
+                  "text": "free",
+                  "size": "sm",
+                  "align": "end",
+                  "color": "#aaaaaa"
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "icon",
+                  "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/restaurant_large_32.png"
+                },
+                {
+                  "type": "text",
+                  "text": "租屋知識",
+                  "weight": "bold",
+                  "margin": "sm",
+                  "flex": 0
+                },
+                {
+                  "type": "text",
+                  "text": "free",
+                  "size": "sm",
+                  "align": "end",
+                  "color": "#aaaaaa"
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "icon",
+                  "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/restaurant_regular_32.png"
+                },
+                {
+                  "type": "text",
+                  "text": "租屋推薦",
+                  "weight": "bold",
+                  "margin": "sm",
+                  "flex": 0
+                },
+                {
+                  "type": "text",
+                  "text": "free",
+                  "size": "sm",
+                  "align": "end",
+                  "color": "#aaaaaa"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "wrap": true,
+          "color": "#aaaaaa",
+          "size": "xxs",
+          "text": "123456789"
+        }
+      ]
+    },
+    "footer": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "button",
+          "style": "primary",
+          "color": "#905c44",
+          "margin": "xxl",
+          "action": {
+            "type": "uri",
+            "label": "Download",
+            "uri": "https://linecorp.com"
+          }
+        }
+      ]
+    }
+  }
